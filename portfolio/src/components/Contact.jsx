@@ -2,28 +2,32 @@ import { Form, Button } from "react-bootstrap";
 
 function Contact() {
     return (
-        <>
-            <h1 className="font-weight-light">Contact Me</h1>
-            <Form>
-                <Form.Group className="mb-3" controlId="formBasicName">
-                    <Form.Label>Name</Form.Label>
-                    <Form.Control type="email" placeholder="Enter name" />
-                </Form.Group>
-
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                </Form.Group>
-
-                <Form.Group className="mb-3" controlId="formBasicMessage">
-                    <Form.Label>Message</Form.Label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Contact
-                </Button>
-            </Form>
-        </>
+        <div className="contact">
+            <div className="container">
+                <div className="row align-items-center my-5">
+                    
+                <div className="col-lg-7">
+                    
+                    
+                    <img
+                    class="img-fluid rounded mb-4 mb-lg-0"
+                    src="http://placehold.it/900x400"
+                    alt=""
+                    />
+                </div>
+                <div class="col-lg-5">
+                    <h1 class="font-weight-light">Contact</h1>
+                    <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                </div>
+            </div>
+            
+        </div>
     )
 }
 

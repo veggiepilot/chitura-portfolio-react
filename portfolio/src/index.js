@@ -8,12 +8,19 @@ import {
   Navigation,
   Footer,
   About,
-  Contact
+  Contact,
+  Project,
+  Sidebar
 } from "./components";
 
 ReactDOM.render(
   <Router>
-    <Navigation/>
+    <Navigation />
+    <Routes>
+      <Route path="/" element={<About />} />
+      <Route path="/project" element={<Project />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
     <Footer />
   </Router>,
   document.getElementById('root')
