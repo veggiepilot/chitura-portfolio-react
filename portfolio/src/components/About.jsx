@@ -1,3 +1,5 @@
+import { Outlet } from "react-router-dom";
+
 function About() {
     return (
         <div className="about">
@@ -19,6 +21,7 @@ function About() {
                         My ultimate goal is to help solve the unemployment issues faced by many African countries by teaching young Africans how to code. Once they are well-versed in coding, I will work to link them up with American and European countries searching for programmers.
                         </p>
                     </div>
+                    <Outlet />
                 </div>
             </div>
         </div>
