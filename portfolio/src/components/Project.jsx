@@ -1,10 +1,14 @@
+import timedQuiz from "./timed-quiz.png";
+import passwordGenerator from "./password-generator.png";
+import workScheduler from "./work-scheduler.png";
+import covidTracker from "./covid-tracker.png";
+
 function Project() {
     return (
         <div className="project">
             <div class="container">
                 <div class="row align-items-center my-7">
                     <div class="col-lg-7">
-                    <h1>Projects</h1>
                     <section className="showcase-right">
                         <div className="showcase-right-text">
                             <h3>Timed Quiz</h3>
@@ -13,7 +17,7 @@ function Project() {
                         </div>
                         <div className="showcase-right-img">
                             <a href="https://veggiepilot.github.io/code-quiz/">
-                                <img src="assets/images/timed-quiz.png" alt="Screenshot of timed quiz" />
+                                <img src={timedQuiz} alt="Screenshot of timed quiz" />
                             </a>
                         </div>
                     </section>
@@ -25,7 +29,7 @@ function Project() {
                         </div>
                         <div className="showcase-left-img">
                             <a href="https://veggiepilot.github.io/work-day-scheduler/">
-                                <img src="assets/images/work-scheduler.png" alt="Screenshot of work scheduler webpage"/>
+                                <img src={workScheduler} alt="Screenshot of work scheduler webpage"/>
                             </a>
                         </div>
                     </section>
@@ -37,7 +41,7 @@ function Project() {
                             </div>
                             <div className="showcase-right-img">
                                 <a href="https://veggiepilot.github.io/password-generator/">
-                                    <img src="assets/images/password-generator.png" alt="Screenshot of password generator webpage"/>
+                                    <img src={passwordGenerator} alt="Screenshot of password generator webpage"/>
                                 </a>
                             </div>
                         </section>
@@ -49,7 +53,7 @@ function Project() {
                             </div>
                             <div className="showcase-left-img">
                                 <a href="https://maxaeon.github.io/covid/">
-                                    <img src="assets/images/covid-tracker.png" alt="Screenshot of covid tracker website"/>
+                                    <img src={covidTracker} alt="Screenshot of covid tracker website"/>
                                 </a>
                             </div>
                         </section>

@@ -16,6 +16,7 @@ import {
 ReactDOM.render(
   <Router>
     <Navigation />
+    <Sidebar />
     <Routes>
       <Route path="/" element={<About />} />
       <Route path="/project" element={<Project />} />
