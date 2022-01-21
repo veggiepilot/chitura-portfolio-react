@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {
@@ -10,7 +9,8 @@ import {
   About,
   Contact,
   Project,
-  Sidebar
+  Sidebar,
+  Resume
 } from "./components";
 
 ReactDOM.render(
@@ -20,6 +20,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<About />} />
       <Route path="/project" element={<Project />} />
+      <Route path="/resume" element={<Resume />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
     <Footer />

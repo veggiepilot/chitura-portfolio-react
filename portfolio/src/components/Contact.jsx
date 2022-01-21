@@ -1,5 +1,3 @@
-import { Form, Button } from "react-bootstrap";
-
 function Contact() {
     return (
         <div className="contact">
