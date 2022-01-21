@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 function Sidebar() {
     return (
         <div className="side-bar">
@@ -8,9 +10,11 @@ function Sidebar() {
             </div>
             <div className="contact-icons">
                 <p>GET IN TOUCH</p>
-                <a href="mailto:johanneschitura@gmail.com"><i className="fas fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/johanneschitura/"><i className="fab fa-linkedin"></i></a>
-                <a href="https://github.com/veggiepilot"><i className="fab fa-github"></i></a>
+                <a href="mailto:johanneschitura@gmail.com"><FontAwesomeIcon icon="envelope" /></a>
+                <a href="https://www.linkedin.com/in/johanneschitura/"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                <a href="https://github.com/veggiepilot"><FontAwesomeIcon icon={["fab", "github"]} /></a>
+                <a href="https://twitter.com/jochitura"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                
             </div>
             <nav className="sidebar-nav">
                 <ul>
