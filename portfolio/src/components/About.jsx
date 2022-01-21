@@ -1,5 +1,3 @@
-import { Outlet } from "react-router-dom";
-
 function About() {
     return (
         <div className="about">

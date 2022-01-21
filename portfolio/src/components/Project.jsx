@@ -8,9 +8,9 @@ import weatherApp from "./weather-app.png";
 function Project() {
     return (
         <div className="project">
-            <div class="container">
-                <div class="row align-items-center my-7">
-                    <div class="col-lg-7">
+            <div className="container">
+                <div className="row align-items-center my-7">
+                    <div className="col-lg-7">
                     <section className="showcase-right">
                         <div className="showcase-right-text">
                             <h3>Timed Quiz</h3>
