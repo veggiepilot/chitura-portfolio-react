@@ -4,6 +4,7 @@ import workScheduler from "./work-scheduler.png";
 import covidTracker from "./covid-tracker.png";
 import gcaDashboard from "./gca-dashboard.png";
 import weatherApp from "./weather-app.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Project() {
     return (
@@ -20,6 +21,7 @@ function Project() {
                         <div className="showcase-right-img">
                             <a href="https://veggiepilot.github.io/code-quiz/">
                                 <img src={timedQuiz} alt="Screenshot of timed quiz" />
+                                <a href="https://github.com/veggiepilot/code-quiz"><FontAwesomeIcon icon={["fab", "github"]} /></a>
                             </a>
                         </div>
                     </section>
@@ -32,6 +34,7 @@ function Project() {
                         <div className="showcase-left-img">
                             <a href="https://veggiepilot.github.io/work-day-scheduler/">
                                 <img src={workScheduler} alt="Screenshot of work scheduler webpage"/>
+                                <a href="https://github.com/veggiepilot/work-day-scheduler"><FontAwesomeIcon icon={["fab", "github"]} /></a>
                             </a>
                         </div>
                     </section>
@@ -44,6 +47,7 @@ function Project() {
                             <div className="showcase-right-img">
                                 <a href="https://veggiepilot.github.io/password-generator/">
                                     <img src={passwordGenerator} alt="Screenshot of password generator webpage"/>
+                                    <a href="https://github.com/veggiepilot/password-generator"><FontAwesomeIcon icon={["fab", "github"]} /></a>
                                 </a>
                             </div>
                         </section>
@@ -56,6 +60,7 @@ function Project() {
                             <div className="showcase-left-img">
                                 <a href="https://maxaeon.github.io/covid/">
                                     <img src={covidTracker} alt="Screenshot of covid tracker website"/>
+                                    <a href="https://github.com/maxaeon/covid"><FontAwesomeIcon icon={["fab", "github"]} /></a>
                                 </a>
                             </div>
                         </section>
@@ -68,6 +73,7 @@ function Project() {
                             <div className="showcase-right-img">
                                 <a href="https://cryptic-ridge-10235.herokuapp.com/">
                                     <img src={gcaDashboard} alt="Screenshot of password GCA Dashboard webpage"/>
+                                    <a href="https://github.com/veggiepilot/gca-donor-dashboard-react-app"><FontAwesomeIcon icon={["fab", "github"]} /></a>
                                 </a>
                             </div>
                         </section>
@@ -80,6 +86,7 @@ function Project() {
                             <div className="showcase-left-img">
                                 <a href="https://veggiepilot.github.io/weather-dashboard/">
                                     <img src={weatherApp} alt="Screenshot of Weather App"/>
+                                    <a href="https://github.com/veggiepilot/weather-dashboard"><FontAwesomeIcon icon={["fab", "github"]} /></a>
                                 </a>
                             </div>
                         </section>
