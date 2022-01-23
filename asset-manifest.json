@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/veggiepilot/chitura-portfolio-react/static/css/main.7e10b60b.css",
+    "main.js": "/veggiepilot/chitura-portfolio-react/static/js/main.569f2609.js",
+    "static/js/787.86e70ff7.chunk.js": "/veggiepilot/chitura-portfolio-react/static/js/787.86e70ff7.chunk.js",
+    "static/media/covid-tracker.png": "/veggiepilot/chitura-portfolio-react/static/media/covid-tracker.27de10bca1a8e03945d3.png",
+    "static/media/gca-dashboard.png": "/veggiepilot/chitura-portfolio-react/static/media/gca-dashboard.7ca1b3048eafceabc07b.png",
+    "static/media/weather-app.png": "/veggiepilot/chitura-portfolio-react/static/media/weather-app.e12873c50eeebf9a0a10.png",
+    "static/media/work-scheduler.png": "/veggiepilot/chitura-portfolio-react/static/media/work-scheduler.79e5ed190fb56446de3b.png",
+    "static/media/timed-quiz.png": "/veggiepilot/chitura-portfolio-react/static/media/timed-quiz.e69ea7be6fc17bd934fc.png",
+    "static/media/password-generator.png": "/veggiepilot/chitura-portfolio-react/static/media/password-generator.88bed7bca502c6134eba.png",
+    "static/media/resume.pdf": "/veggiepilot/chitura-portfolio-react/static/media/resume.2c24ff9bb1f0311f40eb.pdf",
+    "index.html": "/veggiepilot/chitura-portfolio-react/index.html",
+    "main.7e10b60b.css.map": "/veggiepilot/chitura-portfolio-react/static/css/main.7e10b60b.css.map",
+    "main.569f2609.js.map": "/veggiepilot/chitura-portfolio-react/static/js/main.569f2609.js.map",
+    "787.86e70ff7.chunk.js.map": "/veggiepilot/chitura-portfolio-react/static/js/787.86e70ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e10b60b.css",
+    "static/js/main.569f2609.js"
+  ]
+}
